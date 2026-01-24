@@ -1,49 +1,48 @@
 
 ---
 
-## 🤖 Machine Learning Model
-- Framework: TensorFlow Lite
-- Input size: 224×224
-- Confidence threshold: 85%
-- Stable-frame logic to reduce false detections
-
-All model-related files are located in the `model/` folder.
-
----
-
-## 📸 Project Images
-All mechanical, electrical, and system images are included in the `images/` folder inside this repository.
+## 📸 Project Assets
+All mechanical, electrical, and system images are included in the **images/** folder alongside the source code.  
+These images document:
+- Mechanical assembly
+- Electrical wiring and control components
+- System integration stages
+- Final prototype
 
 ---
 
 ## 🧪 Results
-- Product recognition worked successfully
-- Communication with ESP32 was stable
-- Core system concept was validated
+### Achievements
+- Successful real-time product recognition
+- Stable PC-to-ESP32 communication
+- Core system concept validated under limited time
 
 ### Limitations
-- Motor/conveyor instability
-- Load cell calibration difficulty under moving belt
-- Lighting conditions affected vision accuracy
-- Automatic door after payment not implemented
+- Conveyor motor instability in some cases
+- Load cell calibration difficulty under a moving belt
+- Lighting conditions affected recognition accuracy
+- Automatic door after payment was not implemented due to time constraints
 
 ---
 
 ## 📈 Future Improvements
-- Fully enclosed system for lighting control and anti-theft
-- Closed-loop motor control (encoder-based)
-- Payment system integration (e-wallet)
-- Automated door mechanism after payment confirmation
+- Fully enclosed system to control lighting and prevent theft
+- Closed-loop motor control using encoder feedback
+- Automatic door mechanism linked to payment confirmation
+- Integration with an electronic wallet/payment system
+- Improved illumination using diffused LED lighting
+- Database-based product pricing and user interface dashboard
 
 ---
 
 ## 👨‍💻 My Role
 - Mechanical design and assembly
-- Electrical wiring and power control
+- Electrical wiring and power/control implementation
 - ~40% contribution to software and control logic
 - System integration and troubleshooting
 
 ---
 
 ## 🏁 Conclusion
-This project demonstrates the integration of mechanical systems, electrical control, and AI-based vision into a single smart cashier solution with strong potential for real-world development.
+The Smart Cashier System demonstrates a practical application of mechatronics engineering by integrating mechanical design, electrical control, and AI-based computer vision into a single automated checkout solution.  
+Despite time and hardware limitations, the project successfully validated the core concept and provides a strong foundation for real-world deployment and future enhancement.
