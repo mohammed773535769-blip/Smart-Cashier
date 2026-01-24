@@ -10,6 +10,21 @@ These images document:
 - Final prototype
 
 ---
+## 👥 Authors & Contributions
+
+This project was developed as a university team project by two Mechatronics Engineering students.
+
+- **Mohammed Al-oshari**  
+  *Mechatronics Engineer – Electrical, Mechanical Design & System Integration Focus*  
+  Responsible for electrical wiring, motor control, mechanical design and assembly, system integration, and partial contribution to software development.
+
+- **Fateh Al-rahman Mosaied**  
+  *Mechatronics Engineer – Software, AI & Control Focus*  
+  Responsible for machine learning implementation, computer vision pipeline, ESP32 firmware logic, system communication, and provided most of the hardware components.
+
+Other team members had limited contribution.
+
+---
 
 ## 🧪 Results
 ### Achievements
@@ -35,15 +50,8 @@ These images document:
 
 ---
 
-## 👨‍💻 My Role
-- Mechanical design and assembly
-- Electrical wiring and power/control implementation
-- contribution to software and control logic
-- System integration and troubleshooting
-
----
-
 ## 🏁 Conclusion
 The Smart Cashier System demonstrates a practical application of mechatronics engineering by integrating mechanical design, electrical control, and AI-based computer vision into a single automated checkout solution.  
 Despite time and hardware limitations, the project successfully validated the core concept and provides a strong foundation for real-world deployment and future enhancement.
+
 
