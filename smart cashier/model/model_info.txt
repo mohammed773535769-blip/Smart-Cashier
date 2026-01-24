@@ -1,0 +1,9 @@
+Model Type: Image Classification
+Framework: TensorFlow Lite
+Training Tool: Teachable Machine
+Input Size: 224 x 224 x 3
+Input Normalization: (x / 127.5) - 1.0
+Output: Softmax probabilities
+Classes: 7
+Quantization: No (Float32)
+Purpose: Product recognition for Smart Cashier System
