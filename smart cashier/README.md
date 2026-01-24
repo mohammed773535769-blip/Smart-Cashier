@@ -38,7 +38,7 @@ These images document:
 ## 👨‍💻 My Role
 - Mechanical design and assembly
 - Electrical wiring and power/control implementation
-- ~40% contribution to software and control logic
+- contribution to software and control logic
 - System integration and troubleshooting
 
 ---
@@ -46,3 +46,4 @@ These images document:
 ## 🏁 Conclusion
 The Smart Cashier System demonstrates a practical application of mechatronics engineering by integrating mechanical design, electrical control, and AI-based computer vision into a single automated checkout solution.  
 Despite time and hardware limitations, the project successfully validated the core concept and provides a strong foundation for real-world deployment and future enhancement.
+
