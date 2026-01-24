@@ -1,44 +1,49 @@
-[text](model/README.md)# 🛒 Smart Cashier System
-
-Smart Cashier System is a mechatronics project that aims to reduce congestion at traditional checkout counters by using computer vision and machine learning to automatically recognize products, supported by weight verification and automated conveyor control.
 
 ---
 
-## 🎯 Problem Statement
-- Long waiting times at cashier counters
-- Dependence on human cashiers and recurring salary costs
-- Manual product entry errors
+## 🤖 Machine Learning Model
+- Framework: TensorFlow Lite
+- Input size: 224×224
+- Confidence threshold: 85%
+- Stable-frame logic to reduce false detections
+
+All model-related files are located in the `model/` folder.
 
 ---
 
-## 💡 Proposed Solution
-A smart automated cashier system that:
-- Recognizes products using **Machine Learning (Computer Vision)**
-- Verifies products using a **weight sensor (Load Cell)**
-- Controls a conveyor belt automatically
-- Communicates between a PC and an **ESP32** via WiFi (HTTP)
+## 📸 Project Images
+All mechanical, electrical, and system images are included in the `images/` folder inside this repository.
 
 ---
 
-## ⚙️ System Components
+## 🧪 Results
+- Product recognition worked successfully
+- Communication with ESP32 was stable
+- Core system concept was validated
 
-### Hardware
-- ESP32 Microcontroller  
-- Camera  
-- Load Cell + HX711  
-- Single-phase induction motor  
-- Gearbox (10:1)  
-- Relays & transistors  
-- Conveyor belt  
-- Mechanical frame (SolidWorks design)
-
-### Software
-- Python
-- OpenCV
-- TensorFlow Lite
-- Arduino (ESP32)
-- HTTP communication
+### Limitations
+- Motor/conveyor instability
+- Load cell calibration difficulty under moving belt
+- Lighting conditions affected vision accuracy
+- Automatic door after payment not implemented
 
 ---
 
-## 📂 Project Structure
+## 📈 Future Improvements
+- Fully enclosed system for lighting control and anti-theft
+- Closed-loop motor control (encoder-based)
+- Payment system integration (e-wallet)
+- Automated door mechanism after payment confirmation
+
+---
+
+## 👨‍💻 My Role
+- Mechanical design and assembly
+- Electrical wiring and power control
+- ~40% contribution to software and control logic
+- System integration and troubleshooting
+
+---
+
+## 🏁 Conclusion
+This project demonstrates the integration of mechanical systems, electrical control, and AI-based vision into a single smart cashier solution with strong potential for real-world development.
